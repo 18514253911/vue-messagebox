@@ -6,7 +6,7 @@ npm install vue-messagebox --save
 
 在main.js中
 
-import messageBox from 'vue-messagebox';
+import * as messageBox from 'vue-messagebox';
 
 Vue.use(messageBox);
 
