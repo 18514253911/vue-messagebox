@@ -10,4 +10,4 @@ import messageBox from 'vue-messagebox';
 
 Vue.use(messageBox);
 
-<message-box :titleValue="" :visible.sync =''></message-box>
+`<message-box :titleValue="" :visible.sync =''></message-box>`
