@@ -1,9 +1,9 @@
 import messageBox from './src/messagebox/main'
 
 const install = (Vue) => {
-  Vue.components(messageBox.name, messageBox)
+  Vue.component(messageBox.name, messageBox)
 }
 
-export {
+export default {
   messageBox
 }
